@@ -45,10 +45,11 @@ defineProps({
 </script>
 <template>
   <div class="text-center">
-    <h1 :class="`text-gradient text-${color ?? 'success'}`">
-      <CountTo :start-val="0" :end-val="count" :duration="duration" />{{
-        suffix
-      }}
+    <h1 :class="`text-gradient text-${color ?? 'info'}`">
+<!--      <CountTo :start-val="0" :end-val="count" :duration="duration" />{{-->
+<!--        suffix-->
+<!--      }}-->
+      {{suffix}}
     </h1>
     <h5 class="mt-3">{{ title }}</h5>
     <p class="text-sm font-weight-normal">

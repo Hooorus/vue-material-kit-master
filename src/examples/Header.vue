@@ -26,7 +26,7 @@ defineProps({
   },
   mask: {
     type: String,
-    default: "mask bg-gradient-success opacity-4",
+    default: "mask bg-info opacity-4",
   },
   center: {
     type: Boolean,

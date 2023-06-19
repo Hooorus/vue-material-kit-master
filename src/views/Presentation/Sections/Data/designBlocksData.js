@@ -31,7 +31,84 @@ import imgDropdowns from "@/assets/img/dropdowns.jpg";
 
 export default [
   {
-    heading: "Design Blocks",
+    heading: "Awards & Experience",
+    description:
+      "In my undergraduate and postgraduate periods.",
+    items: [
+      {
+        image: `${imagesPrefix}/buttons.jpg`,
+        title: "Freshman 1",
+        subtitle: "Freshman 1",
+        route: "el-buttons",
+        pro: false
+      },
+      {
+        image: `${imagesPrefix}/avatars.jpg`,
+        title: "Freshman 2",
+        subtitle: "Freshman 2",
+        route: "el-avatars",
+        pro: false
+      },
+      {
+        image: imgDropdowns,
+        title: "Sophomore 1",
+        subtitle: "Sophomore 1",
+        route: "el-dropdowns",
+        pro: false
+      },
+      {
+        image: `${imagesPrefix}/switch.jpg`,
+        title: "Sophomore 2",
+        subtitle: "Sophomore 2",
+        route: "el-toggles",
+        pro: false
+      },
+      {
+        image: `${imagesPrefix}/badges.jpg`,
+        title: "Junior 1",
+        subtitle: "Junior 1",
+        route: "el-badges",
+        pro: false
+      },
+      {
+        image: `${imagesPrefix}/progress.jpg`,
+        title: "Junior 2",
+        subtitle: "Junior 2",
+        route: "el-progress-bars",
+        pro: false
+      },
+      {
+        image: `${imagesPrefix}/typography.jpg`,
+        title: "Senior 1",
+        subtitle: "Senior 1",
+        route: "el-typography",
+        pro: false
+      },
+      {
+        image: `${imagesPrefix}/progress.jpg`,
+        title: "Senior 2",
+        subtitle: "Senior 2",
+        route: "el-progress-bars",
+        pro: false
+      },
+      {
+        image: `${imagesPrefix}/typography.jpg`,
+        title: "Graduate 1",
+        subtitle: "Graduate 1",
+        route: "el-typography",
+        pro: false
+      },
+      {
+        image: `${imagesPrefix}/typography.jpg`,
+        title: "Graduate 2",
+        subtitle: "Graduate 2",
+        route: "el-typography",
+        pro: false
+      },
+    ]
+  },
+  {
+    heading: "Programs",
     description:
       "A selection of 45 page sections that fit perfectly in any combination",
     items: [
@@ -50,93 +127,37 @@ export default [
         pro: false
       },
       {
-        image: imgPricing,
-        title: "Pricing",
-        subtitle: "8 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/faq.jpg`,
-        title: "FAQ",
-        subtitle: "1 Example",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: imgBlogPosts,
-        title: "Blog Posts",
-        subtitle: "11 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: imgTestimonials,
-        title: "Testimonials",
-        subtitle: "11 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: imgTeam,
-        title: "Teams",
-        subtitle: "6 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: imgStat,
-        title: "Stats",
-        subtitle: "3 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/call-to-action.jpg`,
-        title: "Call to Actions",
-        subtitle: "8 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/projects.jpg`,
-        title: "Applications",
-        subtitle: "6 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/logo-area.jpg`,
-        title: "Logo Areas",
-        subtitle: "4 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/footers.jpg`,
-        title: "Footers",
+        image: `${imagesPrefix}/headers.jpg`,
+        title: "Page Headers",
         subtitle: "10 Examples",
-        route: "presentation",
-        pro: true
+        route: "page-headers",
+        pro: false
       },
       {
-        image: `${imagesPrefix}/general-cards.jpg`,
-        title: "General Cards",
-        subtitle: "9 Examples",
-        route: "presentation",
-        pro: true
+        image: imgFeatures,
+        title: "Features",
+        subtitle: "14 Examples",
+        route: "page-features",
+        pro: false
       },
       {
-        image: imgContent,
-        title: "Content Sections",
-        subtitle: "8 Examples",
-        route: "presentation",
-        pro: true
-      }
+        image: `${imagesPrefix}/headers.jpg`,
+        title: "Page Headers",
+        subtitle: "10 Examples",
+        route: "page-headers",
+        pro: false
+      },
+      {
+        image: imgFeatures,
+        title: "Features",
+        subtitle: "14 Examples",
+        route: "page-features",
+        pro: false
+      },
     ]
   },
   {
-    heading: "Navigation",
+    heading: "Papers",
     description: "30+ components that will help go through the pages",
     items: [
       {
@@ -163,7 +184,7 @@ export default [
     ]
   },
   {
-    heading: "Input Areas",
+    heading: "Travel",
     description:
       "50+ elements that you need for text manipulation and insertion",
     items: [
@@ -172,14 +193,14 @@ export default [
         title: "Newsletters",
         subtitle: "6 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
         image: `${imagesPrefix}/contact-sections.jpg`,
         title: "Contact Sections",
         subtitle: "8 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
         image: `${imagesPrefix}/forms.jpg`,
@@ -198,7 +219,7 @@ export default [
     ]
   },
   {
-    heading: "Attention Catchers",
+    heading: "Resources",
     description:
       "20+ Fully coded components that popup from different places of the screen",
     items: [
@@ -214,7 +235,7 @@ export default [
         title: "Notifications",
         subtitle: "3 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
         image: imgPopover,
@@ -232,81 +253,4 @@ export default [
       }
     ]
   },
-  {
-    heading: "Elements",
-    description:
-      "80+ carefully crafted small elements that come with multiple colors and shapes",
-    items: [
-      {
-        image: `${imagesPrefix}/buttons.jpg`,
-        title: "Buttons",
-        subtitle: "6 Examples",
-        route: "el-buttons",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/avatars.jpg`,
-        title: "Avatars",
-        subtitle: "2 Examples",
-        route: "el-avatars",
-        pro: false
-      },
-      {
-        image: imgDropdowns,
-        title: "Dropdowns",
-        subtitle: "2 Examples",
-        route: "el-dropdowns",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/switch.jpg`,
-        title: "Toggles",
-        subtitle: "2 Examples",
-        route: "el-toggles",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/social-buttons.jpg`,
-        title: "Social Buttons",
-        subtitle: "2 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/breadcrumbs.jpg`,
-        title: "Breadcrumbs",
-        subtitle: "1 Example",
-        route: "el-breadcrumbs",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/badges.jpg`,
-        title: "Badges",
-        subtitle: "3 Examples",
-        route: "el-badges",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/progress.jpg`,
-        title: "Progress Bars",
-        subtitle: "4 Examples",
-        route: "el-progress-bars",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/tables.jpg`,
-        title: "Tables",
-        subtitle: "3 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/typography.jpg`,
-        title: "Typography",
-        subtitle: "2 Examples",
-        route: "el-typography",
-        pro: false
-      }
-    ]
-  }
 ];

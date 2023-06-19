@@ -1,5 +1,5 @@
 <script setup>
-import logoDark from "@/assets/img/logo-ct-dark.png";
+import logoDark from "@/assets/img/logo-s.png";
 defineProps({
   brand: {
     type: Object,
@@ -7,7 +7,7 @@ defineProps({
     logo: String,
     route: "",
     default: () => ({
-      name: "Material Kit 2",
+      name: "Ms. Hive",
       logo: logoDark,
       route: "/"
     })
@@ -19,23 +19,23 @@ defineProps({
     default: () => [
       {
         icon: '<i class="fab fa-facebook text-lg opacity-8"></i>',
-        link: "https://www.facebook.com/CreativeTim/"
+        link: "#"
       },
       {
         icon: '<i class="fab fa-twitter text-lg opacity-8"></i>',
-        link: "https://twitter.com/creativetim"
+        link: "#"
       },
       {
         icon: '<i class="fab fa-dribbble text-lg opacity-8"></i>',
-        link: "https://dribbble.com/creativetim"
+        link: "#"
       },
       {
         icon: '<i class="fab fa-github text-lg opacity-8"></i>',
-        link: "https://github.com/creativetimofficial"
+        link: "#"
       },
       {
         icon: '<i class="fab fa-youtube text-lg opacity-8"></i>',
-        link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w"
+        link: "#"
       }
     ]
   },
@@ -53,30 +53,33 @@ defineProps({
         items: [
           {
             name: "about us",
-            href: "https://www.creative-tim.com/presentation"
+            link: "#"
           },
           {
             name: "freebies",
-            href: "https://www.creative-tim.com/templates/free"
+            link: "#"
           },
           {
             name: "premium tools",
-            href: "https://www.creative-tim.com/templates/premium"
+            link: "#"
           },
-          { name: "blog", href: "https://www.creative-tim.com/blog" }
+          {
+            name: "blog",
+            href: "#"
+          }
         ]
       },
       {
         name: "resources",
         items: [
-          { name: "illustrations", href: "https://iradesign.io/" },
+          { name: "illustrations", href: "#" },
           {
             name: "bits & snippets",
-            href: "https://www.creative-tim.com/bits"
+            href: "#"
           },
           {
             name: "affiliate program",
-            href: "https://www.creative-tim.com/affiliates/new"
+            href: "#"
           }
         ]
       },
@@ -85,19 +88,19 @@ defineProps({
         items: [
           {
             name: "contact us",
-            href: "https://www.creative-tim.com/contact-us"
+            href: "#"
           },
           {
             name: "knowledge center",
-            href: "https://www.creative-tim.com/knowledge-center"
+            href: "#"
           },
           {
             name: "custom development",
-            href: "https://services.creative-tim.com/"
+            href: "#"
           },
           {
             name: "sponsorships",
-            href: "https://www.creative-tim.com/sponsorships"
+            href: "#"
           }
         ]
       },
@@ -106,15 +109,15 @@ defineProps({
         items: [
           {
             name: "terms & conditions",
-            href: "https://www.creative-tim.com/terms"
+            href: "#"
           },
           {
             name: "privacy policy",
-            href: "https://www.creative-tim.com/privacy"
+            href: "#"
           },
           {
             name: "licenses (EULA)",
-            href: "https://www.creative-tim.com/license"
+            href: "#"
           }
         ]
       }
@@ -170,11 +173,9 @@ defineProps({
           <div class="text-center">
             <p class="text-dark my-4 text-sm font-weight-normal">
               All rights reserved. Copyright ©
-              {{ new Date().getFullYear() }}
-              Material Kit by
+              {{ new Date().getFullYear() }} by
               <a href="https://www.creative-tim.com" target="_blank"
-                >Creative Tim</a
-              >.
+                >Ms. Hive</a>
             </p>
           </div>
         </div>
