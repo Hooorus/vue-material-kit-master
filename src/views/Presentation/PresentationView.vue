@@ -53,14 +53,14 @@ onUnmounted(() => {
     >
       <div class="container">
         <div class="row">
-          <div class="col-lg-7 text-center mx-auto position-relative">
+          <div class="col-lg-12 align-text-bottom mx-auto position-relative">
             <h1
               class="text-white pt-3 mt-n5 me-2" style="font-size: 100px; font-family: 'Monotype Corsiva'"
               :style="{ display: 'inline-block ', fontWeight: '100'}"
             >
               Ms. Hive
             </h1>
-            <h2 class="text-white px-5 mt-3" :style="{ fontWeight: '50'}">
+            <h2 class="text-white px-3 mt-2" :style="{ fontWeight: '50'}">
               Convenient & Fast Tool
               <br> Recording & Search Item
             </h2>
