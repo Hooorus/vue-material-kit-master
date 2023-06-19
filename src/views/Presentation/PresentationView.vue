@@ -24,6 +24,7 @@ import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
 import vueMkHeader2 from "@/assets/img/vue-nk-header2.jpg";
 import vueMkHeader3 from "@/assets/img/vue-nk-header3.png";
 import vueMkHeader4 from "@/assets/img/vue-nk-header4.png";
+import MaterialButton from "@/components/MaterialButton.vue";
 
 //hooks
 const body = document.getElementsByTagName("body")[0];
@@ -55,15 +56,15 @@ onUnmounted(() => {
         <div class="row">
           <div class="col-lg-12 align-text-bottom mx-auto position-relative">
             <h1
-              class="text-white pt-3 mt-n5 me-2" style="font-size: 100px; font-family: 'Monotype Corsiva'"
+              class="text-white pt-3 mt-n5 me-2" style="font-size: 50px; font-family: 'Monotype Corsiva'"
               :style="{ display: 'inline-block ', fontWeight: '100'}"
             >
-              Ms. Hive
+              Convenient & Fast Tool<br>
+              Recording & Search Item
             </h1>
-            <h2 class="text-white px-3 mt-2" :style="{ fontWeight: '50'}">
-              Convenient & Fast Tool
-              <br> Recording & Search Item
-            </h2>
+            <div class="text-white px-60 mt-6">
+              <MaterialButton color="white" class="mt-0" style="border-radius: 999px">Get Started</MaterialButton>
+            </div>
           </div>
         </div>
       </div>
